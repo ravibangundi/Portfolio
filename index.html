@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi</title>
+    
+    <!--Google fonts Montserrat, Splash  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&family=Splash&display=swap" rel="stylesheet">
+
+    <!-- Font Awsome Icons -->
+    <script src="https://kit.fontawesome.com/d27ab3e769.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <nav id="nav">
+        <h1 class="logo">Ravi</h1>
+        <ul>
+            <li ><a href="#hero">Home</a></li>
+            <li > <a href="#skills">Skills</a></li>
+            <li ><a href="#projects">Projects</a></li>
+            <li > <a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="hero">
+        <div class="description">
+            <h3>Hi👋, <br>I'm <span>Ravi</span></h3>
+            <hr>
+            <p>In pursuit of my <strong> passion.</strong><br>
+                Being a fresher looking forward to apply my skills and gain experience to be a better professional in the field of IT.
+                Currently Pursuing my MCA degree in Dayananda Sagar College Of Engineering.
+            </p>
+        </div>
+        <div class="profile">
+            <img src="Images/WhatsApp Image 2023-05-06 at 12.24.00 PM.jpeg" alt="Profile">
+        </div>
+    </section>
+    <section id="skills">
+
+        <div class="skills-section">
+            <div class="programming-skills">
+                <h2>Programming </h2>
+                <span><i class="fa-solid fa-c  fa-2x"></i></span>
+                <span><i class="fa-brands fa-python fa-2x" ></i></span>
+                <span><i class="fa-solid fa-c fa-2x" >++</i></span>
+                <span><i class="fa-brands fa-html5 fa-2x"></i></span>
+                <span><i class="fa-brands fa-css3-alt fa-2x"></i></span>
+                <span><i class="fa-brands fa-js fa-2x"></i></span>
+                <span><i class="fa-brands fa-bootstrap fa-2x"></i></span>
+            </div>
+           
+        </div>
+
+
+        <div class="education">
+            <h2>Education Details</h2>
+            <ul class="education-details">
+                <li>Master of Computer Applications <em>(2021-Present)</em><br>
+                    <span>Dayananda Sagar College Of Engineering</span>
+                </li>
+                <li>Bachelor of Computer Applications <em>(2018-2021)</em><br>
+                    <span>Saraswathi Degree College</span>
+                </li>
+                <li>PUC <em>(2014-2016)</em><br>
+                    <span>Alvas PU College</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 >Projects</h2>
+        <div class="projects">
+            
+           
+            <a class="project-list">
+                <img src="/Images/examHall.png" style="width:250px; height:200px; object-fit: contain;">
+                <p><strong>'Examhall Seating Arrangement'</strong> is an online process developed for college to make seat allocation simpler. </p>
+            </a>
+            <a class="project-list">
+                <img src="/Images/Myntra-Logo.png" style="width:250px; height:200px;  object-fit: fill; border-radius: 15px;">
+                <p><strong>Myntra Replica</strong> </p>
+            </a>
+            <a class="project-list">
+                <img src="/Images/Sorting-Algorithms.png" style="width:250px; height:200px; object-fit: fill; border-radius: 15px; ">
+                <p><strong>Sorting Visualizer </strong> It's a mini-Project that uses javaScript to visualize the sorting process of different sorting techniques.</p>
+            </a>
+        </div>
+        <div class="more-projects"><button>More</button></div>
+    </section>
+    <section id="contact">
+        <!-- <h2>Contact</h2> -->
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ravi-vb-525400251"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+            <a href="https://github.com/ravibangundi"><i class="fa-brands fa-github fa-3x"></i></a>
+            <a href="mailto:ravibangundi1999@gmail.com"><i class="fa-solid fa-envelope fa-3x"></i></a>
+        </div>
+    </section>
+
+    <!-- Jquery --> 
+    <script>
+        window.addEventListener("scroll",function (){
+            var nav = document.querySelector("#nav");
+            nav.classList.toggle("stick", window.scrollY > 0);
+        })
+    </script>
+</body>
+<footer>
+    <p>&copy; Ravi</p>
+</footer>
+</html>
